@@ -2,31 +2,31 @@
   <Panel title="导航条" :class="$style.panel">
     <ul :class="$style.content">
       <li>
-        <router-link :to="{ name: 'home'}">
+        <router-link :to="{ name: 'home' }">
           <img src="//img12.360buyimg.com/jrpmobile/jfs/t17587/158/1300523690/1908/eabacaac/5ac4850bNdf876dd8.png?width=60&height=60" alt="">
           <p>首页</p>
         </router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'money'}">
+        <router-link :to="{ name: 'money' }">
           <img src="//img12.360buyimg.com/jrpmobile/jfs/t7690/252/3621724688/1715/757a3ca1/59e9d81bN27304850.png?width=60&height=60" alt="">
           <p>赚钱</p>
         </router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'home'}">
+        <router-link :to="{ name: 'ious' }">
           <img src="//img12.360buyimg.com/jrpmobile/jfs/t18640/141/744623906/1296/82809719/5aa79389N46ec948f.png?width=40&height=40" alt="">
           <p>借钱</p>
         </router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'home'}">
+        <router-link :to="{ name: 'raise' }">
           <img src="//img12.360buyimg.com/jrpmobile/jfs/t19729/201/1027312338/1395/95cecd48/5ab85d0eN01f81011.png?width=56&height=56" alt="">
           <p>省钱</p>
         </router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'home'}">
+        <router-link :to="{ name: 'home' }">
           <img src="//img12.360buyimg.com/jrpmobile/jfs/t11797/326/212754817/2046/ad0e8dc1/59e9d830N1383ce43.png?width=60&height=60" alt="">
           <p>金融会员</p>
         </router-link>

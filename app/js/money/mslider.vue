@@ -1,5 +1,5 @@
 <template lang="html">
-  <Panel title="轮播图" :class="$style.panel">
+  <Panel title="赚钱轮播图" :class="$style.panel">
     <section :class="$style.content">
       <Slider :items="items" :cname="$style.slider"></Slider>  
     </section>

@@ -1,1 +1,1 @@
-# JDFinance-vue
+# JDFinance
