@@ -20,7 +20,7 @@
   "author": "Charles Chen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/char1eschen/JDFinance-vue"
+    "url": "https://github.com/char1eschen/JDFinance-vue/blob/master/README.md"
   },
   "eslintConfig": {
     "root": true,
@@ -62,7 +62,7 @@
     "node_modules",
     "webpack.config.js"
   ],
-  "homepage": "https://gitlab.com/imooc/vuejs#README",
+  "homepage": "https://github.com/char1eschen/JDFinance-vue/blob/master/README.md",
   "dependencies": {
     "clean-webpack-plugin": "^0.1.17",
     "css-hot-loader": "^1.3.4",
