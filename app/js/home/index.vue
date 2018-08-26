@@ -1,15 +1,15 @@
 <template lang="html">
-    <div>
-        <Heador/>  
-        <Slider/>
-        <Novice/>
-        <Borrow/>
-        <Money/>
-        <Product/>
-        <Life/> 
-        <Footor/>
-        <Navbar/> 
-    </div>
+  <div>
+      <Heador/>  
+      <Slider/>
+      <Novice/>
+      <Borrow/>
+      <Money/>
+      <Product/>
+      <Life/> 
+      <Footor/>
+      <Navbar/> 
+  </div>
 </template>
 
 <script>
