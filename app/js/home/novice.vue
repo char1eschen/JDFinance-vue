@@ -57,6 +57,7 @@
         }
       }
       h4 {
+        font-weight: normal;
         font-size: 26px;
         line-height: 40px;
       }
@@ -82,6 +83,7 @@
             border-bottom: 1px solid #ddd;
           }
           h4 {
+            font-weight: normal;
             white-space: nowrap;
             text-overflow: ellipsis;
             overflow: hidden;

@@ -1,6 +1,6 @@
 <template lang="html">
   <section :class="[panelClass, cname]">
-    <h4>-{{ title }}-</h4>
+    <h4>-&nbsp;{{ title }}&nbsp;-</h4>
     <slot/>
   </section>
 </template>
@@ -28,6 +28,9 @@
 <style lang="scss">
   @import "../../css/element.scss";
   .panel {
-    @include panel    
+    @include panel;
+    h4 {
+      font-weight: 700;
+    }    
   }
 </style>
