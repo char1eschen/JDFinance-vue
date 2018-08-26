@@ -7,13 +7,15 @@
         <Money/>
         <Product/>
         <Life/> 
-        <Footer/> 
+        <Footor/>
+        <Navbar/> 
     </div>
 </template>
 
 <script>
   import Heador from '../public/header.vue'
-  import Footer from '../public/footer.vue'
+  import Footor from '../public/footer.vue'
+  import Navbar from '../public/navbar.vue'
   import Slider from './hslider.vue' 
   import Novice from './novice.vue'
   import Borrow from './borrow.vue'
@@ -29,7 +31,8 @@
       Money,
       Product,
       Life,
-      Footer
+      Footor,
+      Navbar
     }
   }
 </script>

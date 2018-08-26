@@ -30,51 +30,51 @@
   import Panel from "../core/panel.vue"
   export default {
     components: {
-      Panel,
+      Panel
     },
     props: {
       cname: {
         type: String,
-        default: "",
-      },
-    },
-}
+        default: ""
+      }
+    }
+  }
 </script>
 
 <style lang="scss" module>
   @import "../../css/element.scss";
-  .panel{
+  .panel {
     @include panel;
     margin-bottom: 100px;
-    &>h4{
+    &>h4 {
       display: none;
     }
-    .content{
+    .content {
       @include flex;
       background: #F5F5F5;
-      li{
+      li {
         width: 100%;
         text-align: center;
         color: #999;
         font-size: 24px;
-        >img{
+        >img {
           width: 100%;
           height: 143px;
         }
-        &:nth-child(2){
+        &:nth-child(2) {
           @include flex(row);
           height: 186px;
           box-sizing: border-box;
-          >div{
+          >div {
             width: 33.3333%;
             text-align: center;
             box-sizing: border-box;
             padding-top: 20px;
-            img{
+            img {
               width: 90px;
               height: 90px;
             }
-            p{
+            p {
               font-size: 26px;
               text-align: center;
               display: block;
