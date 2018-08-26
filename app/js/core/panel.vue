@@ -7,13 +7,13 @@
 
 <script>
   export default {
-    props {
+    props: {
       cname: {
-        type: string,
+        type: String,
         default: ""
       },
       title: {
-        type: string,
+        type: String,
         default: ""
       }
     },
