@@ -1,0 +1,13 @@
+/*
+* @Author: char1eschen
+* @Date:   2018-08-25 08:02:19
+* @Last Modified by:   char1eschen
+* @Last Modified time: 2018-08-25 08:07:50
+*/
+@charset "UTF-8";
+
+@mixin flex($direction:column, $inline:block) {
+  display: if($inline==block, flex, inline-flex);
+  flex-direction: $direction;
+  flex-wrap: wrap;
+}
