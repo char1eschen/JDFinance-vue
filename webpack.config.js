@@ -12,8 +12,8 @@ module.exports = env => {
     new HtmlWebpackPlugin({
       template: './app/views/index.html'
     }),
-    new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin()
+    // new webpack.NamedModulesPlugin(),
+    // new webpack.HotModuleReplacementPlugin()
   ];
   if (env.production) {
     plugins.push(
@@ -24,7 +24,9 @@ module.exports = env => {
       }),
       new ExtractTextPlugin("style.css", {
         ignoreOrder: true
-      })
+      }),
+      // new webpack.optimize.ModuleConcatenationPlugin(),
+      new UglifyJsPlugin()
     )
   }
   return {
