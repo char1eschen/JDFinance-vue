@@ -8,7 +8,7 @@ The template is free and open to reuse under MIT licence.
 
 ### Demo Site
 
-[Available here](https://char1eschen.github.io/JDFinance-vue/)
+[Available here](http://finance.rubychen.me/)
 
 ### Technology Stack
 
@@ -25,7 +25,7 @@ Vue + Vue Router + Sass + css module + ES6/7 + webpack
  
  npm start (Dev Mode)
 
- Visit http://http://localhost:9000/
+ Visit http://localhost:9000/
 
  npm run build (Production Mode)
 ```
