@@ -1,6 +1,6 @@
-# JDFinance
+# JD Finance
 
-### A finance website SPA developed in Vue.js.
+### A finance SPA developed in Vue.js.
 
 This single page application can display same layout in different mobile devices. The template has been tested on iOS, Windows Phone, Android, mobile Chrome, mobile Safari and other mobile browsers. The original idea for setting up this template was to practice vue skills. This project was developed with vue.js.
 
