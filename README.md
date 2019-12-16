@@ -8,7 +8,7 @@ The template is free and open to reuse under MIT licence.
 
 ### Demo Site
 
-[Available here](http://finance.rubychen.me/)
+[Available here](https://charliechen.me/JDFinance-vue/)
 
 ### Technology Stack
 
